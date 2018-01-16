@@ -1,9 +1,9 @@
 package captcha
 
 import (
-	"testing"
-	"github.com/stretchr/testify/assert"
 	"fmt"
+	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 type TestCase struct {
@@ -13,10 +13,10 @@ type TestCase struct {
 
 func TestSum(t *testing.T) {
 	tests := []TestCase{
-		TestCase{Input: "1122", Sum: 3,},
-		TestCase{Input: "1111", Sum: 4,},
-		TestCase{Input: "1234", Sum: 0,},
-		TestCase{Input: "91212129", Sum: 9,},
+		TestCase{Input: "1122", Sum: 3},
+		TestCase{Input: "1111", Sum: 4},
+		TestCase{Input: "1234", Sum: 0},
+		TestCase{Input: "91212129", Sum: 9},
 	}
 
 	assert := assert.New(t)

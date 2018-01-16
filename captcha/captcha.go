@@ -2,13 +2,13 @@ package captcha
 
 /**
 http://adventofcode.com/2017/day/1
- */
+*/
 var (
 	input string
 )
 
 func getSum(series string) int {
-	var sum int;
+	var sum int
 	chars := []rune(series)
 
 	if chars[0] == chars[len(chars)-1] {

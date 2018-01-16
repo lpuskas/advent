@@ -1,5 +1,5 @@
 package advent
 
 func main() {
-	
+
 }
